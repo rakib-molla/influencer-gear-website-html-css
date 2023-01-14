@@ -1,0 +1,298 @@
+:root {
+    --pink: #E02C6D;
+    --footer_color: #0A0826;
+    --black: #3A3A3A;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins';
+    /* border: 1px solid red; */
+}
+
+.btn-primary {
+    background-color: var(--pink);
+    color: #fdfeff;
+    padding: 15px 27px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 8px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    background-color: rgb(223, 28, 207);
+    color: #fdfeff;
+    padding: 15px 27px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 8px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* 
+ === header styles start === */
+header {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    /* grid-auto-rows: minmax(1200px, auto);  */
+    grid-template-columns: repeat(2, 1fr);
+    padding: 87px 0px 0px 0px;
+}
+
+.influncer {
+    font-weight: 700;
+    font-size: 24px;
+    color: #3A3A3A;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+}
+
+ul li {
+    list-style: none;
+    margin-right: 20px;
+    font-weight: 600;
+    font-size: 16px;
+    color: #3A3A3A;
+}
+
+/* 
+ === header styles end === */
+
+/* 
+ === Journey styles start === */
+.div {
+    background-image: url(/logos/circle.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.div img {
+    margin-left: 81px;
+}
+
+.Journey_heading {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 52px;
+    color: #3A3A3A;
+    margin-bottom: 16px;
+}
+
+.radius {
+    border-radius: 30px;
+}
+
+.Journey_description {
+    font-weight: 600;
+    font-size: 16px;
+    color: #3A3A3A;
+    margin-bottom: 16px;
+}
+
+
+/* 
+ === Journey styles end === 
+ */
+/* 
+ === popular styles start === 
+ */
+.popular {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    grid-auto-rows: minmax(auto auto);
+    padding: 95px;
+    grid-row-gap: 25px;
+}
+
+.popular-heading {
+    font-family: 'Poppins';
+    font-size: 35px;
+    color: var(--black);
+    text-align: center;
+    margin-top: 40px;
+}
+
+.item-one {
+    width: 315px;
+    padding: 10px;
+    box-shadow: 2px 2px 3px 5px rgb(185, 185, 181);
+    align-items: flex-start;
+    border-radius: 5px;
+}
+
+.item-one img {
+    width: 100%;
+}
+
+.item-name {
+    font-weight: 500;
+    font-size: 28px;
+}
+
+.item-price {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.item-description {
+    font-size: 16px;
+    font-weight: 700px;
+    margin-bottom: 10px;
+}
+
+.filled {
+    color: #FFC014;
+    font-size: 10px;
+}
+
+.empty {
+    color: #AEAEAE;
+    font-size: 10px;
+}
+
+.star,
+.item-ration-point,
+.item-description {
+    font-weight: 700;
+    font-size: 14px;
+    color: #5E6366;
+}
+
+/* 
+ === popular styles end === 
+ */
+/* 
+ === sponsor styles start === */
+.sponsor {
+    padding: 100px;
+}
+
+.sponsor-details {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgb(238, 231, 231);
+    border-bottom: 1px solid rgb(238, 231, 231);
+}
+
+hr {
+    /* color: rgb(133, 131, 131);  */
+}
+
+.sponsor-name {
+    padding: 50px;
+}
+
+/*
+ === featured styles start === */
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+    overflow: hidden;
+
+}
+
+.feature_description {
+    font-weight: 700;
+    font-size: 38px;
+    margin-bottom: 16px;
+}
+
+
+.desc {
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+
+
+.fa-solid {
+    margin-right: 5px;
+}
+
+/* 
+ === featured styles end === */
+
+/* 
+ === footer styles start=== */
+.main-footer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: var(--footer_color);
+    color: aliceblue;
+    text-align: center;
+    padding: 40px 0px;
+}
+
+.footer-inf {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFFFFF;
+    padding: 50px 0px 15px 0px;
+}
+
+.claim {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    color: #D9DBE1;
+    padding-bottom: 15px;
+}
+
+.reserve {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    color: #D9DBE1;
+}
+
+.footer-icon {
+    text-align: center;
+    padding: 17px 0px;
+    font-size: 30px;
+}
+
+.fa-brands {
+    margin-right: 10px;
+}
+
+/* 
+ === footer styles end=== */
+
+/* 
+ === responsive section=== */
+
+@media only screen and (max-width: 688px) {
+
+    header,
+    {
+    flex-direction: column;
+}
+
+}
