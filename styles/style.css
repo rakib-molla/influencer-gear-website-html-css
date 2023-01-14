@@ -288,10 +288,9 @@ hr {
 /* 
  === responsive section=== */
 
-@media only screen and (max-width: 688px) {
+@media only screen and (max-width: 768px) {
 
-    header,
-    {
+    header{
     flex-direction: column;
 }
 
